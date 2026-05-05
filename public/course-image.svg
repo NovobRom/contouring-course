@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" fill="none">
+  <!-- Face profile (left) -->
+  <g transform="translate(20, 20)">
+    <!-- Head outline -->
+    <ellipse cx="110" cy="100" rx="68" ry="82" fill="#F4ECE2" stroke="#D5C4B0" stroke-width="1.5"/>
+    <!-- Neck -->
+    <path d="M80 175 Q90 195 100 210 L120 210 Q130 195 140 175" fill="#F4ECE2" stroke="#D5C4B0" stroke-width="1.5"/>
+    <!-- Ear -->
+    <ellipse cx="42" cy="105" rx="10" ry="16" fill="#F4ECE2" stroke="#D5C4B0" stroke-width="1.2"/>
+    <!-- Eye -->
+    <path d="M80 85 Q95 78 110 85" stroke="#2B2520" stroke-width="1.2" fill="none"/>
+    <ellipse cx="95" cy="87" rx="5" ry="4" fill="#2B2520" opacity="0.7"/>
+    <!-- Eyebrow -->
+    <path d="M78 76 Q95 70 112 76" stroke="#2B2520" stroke-width="1.2" fill="none"/>
+    <!-- Nose -->
+    <path d="M100 95 L97 118 Q105 122 113 118" stroke="#2B2520" stroke-width="1" fill="none"/>
+    <!-- Lips -->
+    <path d="M85 130 Q100 138 115 130" stroke="#2B2520" stroke-width="1.2" fill="none"/>
+    <!-- Contouring arrows on cheek -->
+    <path d="M125 115 L65 138" stroke="#B8852E" stroke-width="2" marker-end="url(#arrow1)"/>
+    <!-- Contouring arrow on neck -->
+    <path d="M50 185 L120 195" stroke="#B8852E" stroke-width="2" marker-end="url(#arrow1)"/>
+    <!-- Cheek shadow zone -->
+    <path d="M65 138 Q75 148 90 145 Q105 140 115 130" stroke="#B8852E" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <!-- Temple arrow -->
+    <path d="M55 70 Q40 95 45 115" stroke="#B8852E" stroke-width="1.8" marker-end="url(#arrow1)" fill="none"/>
+  </g>
+
+  <!-- Body front (right) -->
+  <g transform="translate(240, 0)">
+    <!-- Torso outline -->
+    <path d="M130 30 Q160 25 180 35 Q200 45 210 65 L215 120 Q220 140 215 160 L210 200 Q215 230 200 260 Q185 280 160 285 Q135 280 120 260 Q105 230 110 200 L105 160 Q100 140 105 120 L110 65 Q120 45 130 30 Z" fill="#F4ECE2" stroke="#D5C4B0" stroke-width="1.5"/>
+    <!-- Neck -->
+    <path d="M145 30 L145 10 Q155 5 165 10 L165 30" fill="#F4ECE2" stroke="#D5C4B0" stroke-width="1.2"/>
+    <!-- Shoulders -->
+    <path d="M110 65 Q80 60 60 80 Q50 95 55 115 L75 120 Q85 95 105 85" fill="#F4ECE2" stroke="#D5C4B0" stroke-width="1.2"/>
+    <path d="M210 65 Q240 60 260 80 Q270 95 265 115 L245 120 Q235 95 215 85" fill="#F4ECE2" stroke="#D5C4B0" stroke-width="1.2"/>
+    <!-- Collarbone area arrows -->
+    <path d="M90 55 L145 70" stroke="#B8852E" stroke-width="2" marker-end="url(#arrow1)"/>
+    <path d="M230 55 L175 70" stroke="#B8852E" stroke-width="2" marker-end="url(#arrow1)"/>
+    <!-- Breast contour circles -->
+    <path d="M125 130 Q115 155 125 175 Q140 185 155 178" stroke="#B8852E" stroke-width="1.8" fill="none" marker-end="url(#arrow1)"/>
+    <path d="M195 130 Q205 155 195 175 Q180 185 165 178" stroke="#B8852E" stroke-width="1.8" fill="none" marker-end="url(#arrow1)"/>
+    <!-- Nipples -->
+    <circle cx="138" cy="155" r="4" fill="#D5C4B0"/>
+    <circle cx="182" cy="155" r="4" fill="#D5C4B0"/>
+    <!-- Abs lines -->
+    <path d="M160 195 L160 255" stroke="#B8852E" stroke-width="1.8" marker-end="url(#arrow1)"/>
+    <!-- Ab block divisions -->
+    <rect x="148" y="200" width="24" height="18" rx="3" fill="#EDE0D0" stroke="#D5C4B0" stroke-width="1"/>
+    <rect x="148" y="221" width="24" height="18" rx="3" fill="#EDE0D0" stroke="#D5C4B0" stroke-width="1"/>
+    <rect x="148" y="242" width="24" height="18" rx="3" fill="#EDE0D0" stroke="#D5C4B0" stroke-width="1"/>
+    <!-- Oblique arrows -->
+    <path d="M118 210 L145 225" stroke="#B8852E" stroke-width="1.8" marker-end="url(#arrow1)"/>
+    <path d="M202 210 L175 225" stroke="#B8852E" stroke-width="1.8" marker-end="url(#arrow1)"/>
+    <!-- Belly button -->
+    <circle cx="160" cy="263" r="3" fill="#D5C4B0"/>
+    <!-- Waist arrows -->
+    <path d="M105 190 L120 205" stroke="#B8852E" stroke-width="1.5" marker-end="url(#arrow1)"/>
+    <path d="M215 190 L200 205" stroke="#B8852E" stroke-width="1.5" marker-end="url(#arrow1)"/>
+  </g>
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L0 6 L8 3 Z" fill="#B8852E"/>
+    </marker>
+  </defs>
+</svg>

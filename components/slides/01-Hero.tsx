@@ -25,18 +25,12 @@ export default function Slide01Hero() {
           </p>
         </div>
 
-        <div className="flex items-end justify-between">
-          <span
-            className="font-playfair"
-            style={{ fontSize: '16px', letterSpacing: '0.1em', color: 'var(--text-muted)' }}
-          >
-            li_zagar_tan
-          </span>
+        <div>
           <span
             className="font-inter"
-            style={{ fontSize: '13px', color: 'var(--text-muted)' }}
+            style={{ fontSize: '13px', color: 'var(--text-muted)', letterSpacing: '0.05em' }}
           >
-            Авторский курс · Елизавета
+            Авторский курс · li_zagar_tan
           </span>
         </div>
       </div>

@@ -26,7 +26,7 @@ export default function Slide19Final() {
           marginBottom: '32px',
         }}
       >
-        Авторский курс · Елизавета
+        Авторский курс по контурингу
       </p>
 
       <div

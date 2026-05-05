@@ -48,10 +48,10 @@ export default function Slide11Rule() {
           style={{ width: '420px', height: '480px', position: 'relative' }}
         >
           <Image
-            src="/course-image.svg"
-            alt="Схема контуринга тела — анатомические зоны"
+            src="/course-image.png"
+            alt="Схема анатомических зон контуринга"
             fill
-            style={{ objectFit: 'contain', opacity: 0.9 }}
+            style={{ objectFit: 'contain' }}
             priority
           />
         </div>

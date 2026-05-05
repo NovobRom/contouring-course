@@ -2,6 +2,7 @@ const items = [
   'Изучение аэрографа (разборка/сборка, заправка, очищение)',
   'Отработка схем нанесения ручкой',
   'Отработка схем нанесения аэрографом на ватмане',
+  'Отработка на моделях',
 ]
 
 export default function Slide18Practice() {
@@ -21,7 +22,7 @@ export default function Slide18Practice() {
             <div
               key={i}
               className="card flex items-start gap-4"
-              style={{ padding: '24px 32px' }}
+              style={{ padding: '18px 28px' }}
             >
               <span
                 style={{

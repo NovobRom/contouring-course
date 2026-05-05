@@ -15,16 +15,17 @@ export default function SideNav({ current, onNavigate }: SideNavProps) {
   const navContent = (
     <div className="flex flex-col gap-4">
       {BLOCK_GROUPS.map((group) => (
-        <div key={group.block} className="flex flex-col items-center gap-1">
+        <div key={group.block} className="flex flex-col items-center gap-1.5 mb-3">
           <span
-            className="text-center font-inter mb-1"
+            className="font-inter mb-1"
             style={{
-              fontSize: '9px',
-              letterSpacing: '0.15em',
+              fontSize: '8px',
+              letterSpacing: '0.18em',
               textTransform: 'uppercase',
               color: 'var(--text-muted)',
-              writingMode: 'vertical-rl',
-              textOrientation: 'mixed',
+              writingMode: 'horizontal-tb',
+              whiteSpace: 'nowrap',
+              textAlign: 'center',
             }}
           >
             {group.label}
@@ -64,7 +65,6 @@ export default function SideNav({ current, onNavigate }: SideNavProps) {
               </div>
             )
           })}
-          <div style={{ width: '1px', height: '8px', background: 'var(--line)', margin: '2px 0' }} />
         </div>
       ))}
     </div>
